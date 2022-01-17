@@ -1,4 +1,4 @@
-var audioContext = new webkitAudioContext();
+var audioContext = new AudioContext();
 
 function drawBuffer( width, height, context, buffer ) {
     var data = buffer.getChannelData( 0 );
